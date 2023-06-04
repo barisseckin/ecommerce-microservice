@@ -3,7 +3,7 @@ package com.demo.userservice.controller;
 import com.demo.userservice.dto.UserDto;
 import com.demo.userservice.dto.request.CreateUserRequest;
 import com.demo.userservice.service.UserService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
